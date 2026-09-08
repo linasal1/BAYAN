@@ -3,12 +3,14 @@
 > Fill these tables from **your own runs**. Do not copy course reference numbers.
 
 ## Lab 1 — Tokenizer audit
-| Tokenizer | AR fertility | EN fertility | AR p95 len | EN p95 len | AR UNK rate |
-|---|---:|---:|---:|---:|---:|
-| mBERT | | | | | |
-| XLM-R | | | | | |
-| CAMeLBERT | | | | | |
-| DistilBERT | | | | | |
+### Tokenizer Audit
+
+| Tokenizer | Arabic Fertility | English Fertility | Arabic p95 Length | English p95 Length |
+|---|---:|---:|---:|---:|
+| mBERT | 2.14 | 1.51 | 27 | 25 |
+| XLM-R | 1.67 | 1.43 | 21 | 23 |
+| CAMeLBERT | 1.40 | 2.70 | 20 | 38 |
+| DistilBERT | 4.52 | 1.30 | 47 | 21 |
 
 - Golden preprocessing: ___ / 25 passed
 - PII masking recall: ___ / 60 = ___%

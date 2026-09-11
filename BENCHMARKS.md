@@ -21,7 +21,7 @@
 | TF-IDF + LinearSVC | macro-F1 | | | |
 | Topic classifier | macro-F1 | | | |
 | NER | entity-F1 | | | |
-| QA | span/null smoke | | | |
+| QA | span/null smoke | 9/9 answerable + 3/3 null | N/A | N/A |
 
 ## Lab 4 — Arabic model bake-off
 | Checkpoint | macro-F1 all | Gulf | MSA | AR fertility |
